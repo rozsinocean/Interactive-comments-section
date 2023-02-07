@@ -1,3 +1,5 @@
-export default {
-    base: "/<REPO>/",
-};
+import { defineConfig } from "vite";
+
+export default defineConfig({
+    base: "./",
+});
